@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faatihat Profile Card</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <div data-testid="profilePicture"><img src="profile.png" alt=""></div>
+        <div class="info">
+            <span>
+                <p data-testid="fullName">Mohammed Faatihat</p>
+                <a data-testid="emailAddress" href="mailto:mohammedfaatihat@gmail.com">mohammedfaatihat@gmail.com</a>
+            </span>
+            <h4 data-testid="jobTitle">Frontend Developer</h4>
+        </div>
+
+        <div class="bio">
+            <p data-testid="shortBio">I'm a self-motivated software developer with front-end development expertise.My
+                knowledge has grown from
+                HTML, CSS, and Javascript to React and a small amount of Next.js. I'm excited to take on challenging
+                tasks,
+                create a beneficial app for the globe, and land a well paying position. Till then , i will keep doing
+                hard
+                things!</p>
+
+            <p data-testid="currentTimeUTC" id="utc-time">UTC Time: --:--</p>
+        </div>
+
+        <div class="footer">
+            <p data-testid="currentLocation">📍Abuja, Nigeria</p>
+            <ul data-testid="socialLinks">
+                <li class="socials">
+                    <img src="linkedIn.png" alt="linkedIn">
+                    <a href="https://www.linkedin.com/in/mohammedfaatihat" target="_blank" rel="noopener noreferrer">
+                        LinkedIn</a>
+                </li>
+                <li>
+                    <img src="github.png" alt="github">
+                    <a href="https://github.com/mohammedfaatihat" target="_blank" rel="noopener noreferrer">Github</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="card.js"></script>
+</body>
+
+</html>
